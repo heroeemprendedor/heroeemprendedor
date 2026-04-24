@@ -2,7 +2,7 @@
 
 Sitio estático de HÉROE EMPRENDEDOR, construido a partir del material aprobado de marca, arquitectura y contenidos.
 
-Nota: esta versión se está usando para validar el flujo de cambios en GitHub.
+Nota2: esta versión se está usando para validar el flujo de cambios en GitHub.
 
 Incluye:
 
