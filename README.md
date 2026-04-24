@@ -14,3 +14,5 @@ Siguiente fase prevista:
 - completar las páginas madre y satélite restantes
 - añadir textos legales reales
 - preparar publicación temporal del sitio
+
+[PRUEBA TÉCNICA REVERSIBLE 2026-04-24] Línea añadida para verificar escritura en GitHub desde el agente.
