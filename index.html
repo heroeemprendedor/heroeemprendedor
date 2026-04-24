@@ -4,161 +4,229 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HÉROE EMPRENDEDOR | Asesoría para emprender en Vitoria-Gasteiz y Álava</title>
-    <meta
-      name="description"
-      content="Lo que nadie te explica cuando empiezas. Guías claras, recursos útiles y asesoría para emprender con criterio en Vitoria-Gasteiz y Álava."
+    <meta name="description" content="Lo que nadie te explica cuando empiezas. Guías claras, recursos útiles y asesoría para emprender con criterio en Vitoria-Gasteiz y Álava." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles.css" />
   </head>
-  <body>
+  <body class="page-home">
     <header class="site-header">
       <div class="header-inner">
-        <a class="brand-lockup" href="./">
-          <span class="brand-mark">HE</span>
-          <span>
-            <span class="brand-title">HÉROE EMPRENDEDOR</span>
+        <a class="brand-lockup" href="/">
+          <span class="brand-block">
+            <span class="brand-kicker">HÉROE EMPRENDEDOR</span>
             <span class="brand-tag">Asesoría para emprender en Vitoria-Gasteiz y Álava</span>
+          </span>
+          <span class="brand-divider" aria-hidden="true"></span>
+          <span class="brand-support">
+            <img src="/assets/logo-vadillo-75ani.svg" alt="Grupo Vadillo 75 años" />
+            <span>by Grupo Vadillo</span>
           </span>
         </a>
         <button class="menu-toggle" type="button" aria-expanded="false" data-menu-toggle>Menú</button>
         <nav class="site-nav" data-site-nav>
-          <a aria-current="page" href="./">Inicio</a>
-          <a href="empieza/">Empieza</a>
-          <a href="impuestos/">Impuestos</a>
-          <a href="ayudas/">Ayudas</a>
-          <a href="recursos/">Recursos</a>
-          <a href="asesoria/">Asesoría</a>
-          <a href="contacto/">Contacto</a>
+          <a href="/" aria-current="page">Inicio</a>
+<a href="/empieza/">Empieza</a>
+<a href="/impuestos/">Impuestos</a>
+<a href="/ayudas/">Ayudas</a>
+<a href="/recursos/">Recursos</a>
+<a href="/asesoria/">Asesoría</a>
+<a href="/contacto/">Contacto</a>
         </nav>
-        <a class="header-cta" href="contacto/">Quiero contaros mi caso</a>
+        <a class="header-cta" href="/empieza/como-empezar-a-emprender-en-vitoria-gasteiz/">Quiero entender por dónde empezar</a>
       </div>
     </header>
 
+    
     <main>
-      <section class="hero-home">
-        <div class="section-inner hero-shell">
+      <section class="home-hero">
+        <div class="home-hero-inner">
           <div class="hero-copy reveal">
             <p class="eyebrow">HÉROE EMPRENDEDOR · by Grupo Vadillo</p>
             <h1>Lo que nadie te explica cuando empiezas</h1>
-            <p class="lead">
+            <p class="hero-subtitle">
               Te ayudamos a entender qué tienes que hacer, en qué orden conviene hacerlo y qué errores merece la pena evitar si quieres emprender con criterio en Vitoria-Gasteiz y Álava.
             </p>
             <div class="actions">
-              <a class="button" href="empieza/">Quiero entender por dónde empezar</a>
-              <a class="button button-secondary" href="asesoria/">Ver cómo podéis acompañarme</a>
+              <a class="button" href="/empieza/como-empezar-a-emprender-en-vitoria-gasteiz/">Quiero entender por dónde empezar</a>
+              <a class="button button-secondary" href="/asesoria/asesoria-para-emprender-en-vitoria-gasteiz-y-alava/">Ver cómo podéis acompañarme</a>
             </div>
-            <p class="hero-note">Guías claras, recursos útiles y asesoría para emprender sin ir a ciegas.</p>
+            <p class="microcopy">Guías claras, recursos útiles y asesoría para empezar sin ir a ciegas.</p>
           </div>
-
-          <aside class="hero-aside reveal">
-            <p class="mini-label">Base con experiencia real</p>
+          <div class="hero-side reveal">
+            <p class="eyebrow eyebrow-dark">Autoridad práctica</p>
             <h2>Una cosa es estudiar empresas. Otra muy distinta es levantarlas y gestionarlas.</h2>
             <p>
               Detrás de HÉROE EMPRENDEDOR está Grupo Vadillo y su experiencia real en creación y gestión de empresas.
             </p>
-            <div class="authority-strip">
-              <span>+70 años asesorando</span>
-              <span>Más de 300 clientes</span>
-              <span>Vitoria-Gasteiz · Álava · Euskadi</span>
-            </div>
-          </aside>
-        </div>
-      </section>
-
-      <section class="section section-intro">
-        <div class="section-inner split-intro">
-          <div class="reveal">
-            <p class="eyebrow eyebrow-ink">Problema real</p>
-            <h2>Tener una idea no suele ser lo más difícil.</h2>
-          </div>
-          <div class="text-block reveal">
-            <p class="intro-line">Lo difícil es empezar sin que nadie te traduzca la realidad.</p>
-            <p>
-              Te hablan de darte de alta, de IVA, de IRPF, de ayudas, de TicketBAI, de modelos, de certificados y de obligaciones.
-            </p>
-            <p>
-              La información existe. El problema es otro: casi nadie te la ordena, casi nadie te la aterriza y casi nadie te explica qué significa todo eso cuando solo estás intentando empezar bien.
-            </p>
+            <ul class="hero-points">
+              <li>Más de 70 años asesorando en el País Vasco</li>
+              <li>Más de 300 clientes como respaldo</li>
+              <li>Vitoria-Gasteiz · Álava · Euskadi</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      <section class="section section-soft">
-        <div class="section-inner">
-          <p class="eyebrow eyebrow-ink reveal">Empieza por tu duda real</p>
+      <section class="section-band">
+        <div class="section-inner split-band">
           <div class="section-heading reveal">
-            <h2>Esta web no está organizada por departamentos.</h2>
-            <p>Está organizada por lo que tú necesitas resolver.</p>
+            <p class="eyebrow eyebrow-dark">Problema real</p>
+            <h2>Tener una idea no suele ser lo más difícil. Lo difícil es empezar sin que nadie te traduzca la realidad.</h2>
           </div>
-          <div class="cards-grid cards-grid-home">
-            <article class="guide-card reveal">
-              <span class="guide-index">Empieza</span>
+          <div class="section-copy reveal">
+            <p>Te hablan de darte de alta, de IVA, de IRPF, de cuotas, de ayudas, de TicketBAI, de modelos, de certificados y de obligaciones.</p>
+            <p>La información existe. El problema es otro: casi nadie te la ordena, casi nadie te la aterriza y casi nadie te explica qué significa todo eso cuando solo estás intentando empezar bien.</p>
+            <p>Por eso existe HÉROE EMPRENDEDOR: para ayudarte a entender qué tienes delante, en qué orden conviene moverte y qué errores merece la pena evitar.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band section-soft">
+        <div class="section-inner editorial-band">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Del oficio al negocio</p>
+            <h2>Una cosa es dominar un oficio. Otra muy distinta es gestionar un negocio.</h2>
+          </div>
+          <div class="editorial-copy reveal">
+            <p>Ser el mejor cocinero no garantiza saber montar un restaurante de éxito.</p>
+            <p>Y eso no significa que no valgas para emprender. Significa algo mucho más normal: una cosa es dominar un oficio y otra muy distinta saber gestionar una actividad económica real.</p>
+            <p>Aquí también te ayudamos en ese punto. A pasar de pensar solo en lo que sabes hacer a pensar en cómo convertirlo en un proyecto viable, ordenado y bien montado.</p>
+            <blockquote>Tu talento importa. Pero tu negocio necesita además estructura, criterio y seguimiento.</blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Orientación por necesidades</p>
+            <h2>Empieza por donde más falta te hace</h2>
+            <p>No todo el mundo está en el mismo punto. Así que no todo el mundo necesita la misma explicación.</p>
+          </div>
+          <div class="card-grid">
+            <article class="info-card reveal">
+              <p class="card-label">Empieza</p>
               <h3>Quiero emprender, pero no sé por dónde empezar</h3>
               <p>Primeros pasos, orden lógico y decisiones básicas para no avanzar a ciegas.</p>
-              <a class="text-link" href="empieza/">Ir a Empieza</a>
+              <a class="text-link" href="/empieza/como-empezar-a-emprender-en-vitoria-gasteiz/">Ver por dónde empezar</a>
             </article>
-            <article class="guide-card reveal">
-              <span class="guide-index">Impuestos</span>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Autónomos</p>
               <h3>Quiero hacerme autónomo y no meter la pata</h3>
               <p>Alta, impuestos, obligaciones y errores frecuentes explicados desde cero.</p>
-              <a class="text-link" href="impuestos/">Ir a Impuestos</a>
+              <a class="text-link" href="/empieza/como-hacerse-autonomo-en-alava/">Ver cómo empezar como autónomo</a>
             </article>
-            <article class="guide-card reveal">
-              <span class="guide-index">Decisiones</span>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Decisiones</p>
               <h3>No tengo claro si me conviene ser autónomo o montar una SL</h3>
               <p>Qué cambia de verdad, cuándo compensa y qué suele entenderse mal.</p>
-              <a class="text-link" href="empieza/">Ver guías de arranque</a>
+              <a class="text-link" href="/empieza/autonomo-o-sl-que-te-conviene-de-verdad/">Comparar opciones</a>
             </article>
-            <article class="guide-card reveal">
-              <span class="guide-index">Ayudas</span>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Ayudas</p>
               <h3>Quiero entender ayudas y subvenciones sin perderme</h3>
               <p>Qué puedes revisar, cómo prepararte y qué suele fallar cuando se improvisa.</p>
-              <a class="text-link" href="ayudas/">Ir a Ayudas</a>
+              <a class="text-link" href="/ayudas/ayudas-para-emprender-en-vitoria-gasteiz-y-alava/">Ver ayudas para emprender</a>
             </article>
-          </div>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Acompañamiento</p>
+              <h3>Ya he empezado, pero necesito que alguien me lo lleve bien</h3>
+              <p>Acompañamiento real para arrancar con base o corregir antes de que el desorden crezca.</p>
+              <a class="text-link" href="/asesoria/">Ver asesoría</a>
+            </article>
+            </div>
         </div>
       </section>
 
-      <section class="section section-dark">
-        <div class="section-inner two-column">
-          <div class="reveal">
-            <p class="eyebrow eyebrow-light">Guías base</p>
-            <h2>Antes de moverte, conviene entender bien unas cuantas cosas.</h2>
+      <section class="section-band section-dark">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Guías destacadas</p>
+            <h2>Antes de moverte, de darte de alta o de tomar decisiones, conviene entender bien unas cuantas cosas.</h2>
           </div>
-          <div class="guide-stack">
-            <article class="guide reveal">
-              <span class="guide-tag">Guía base</span>
+          <div class="card-grid card-grid-compact">
+            <article class="info-card reveal">
+              <p class="card-label">Empieza</p>
               <h3>Cómo empezar a emprender en Vitoria-Gasteiz sin ir a ciegas</h3>
-              <p>El orden correcto. Las decisiones que importan de verdad. Lo que nadie te dice cuando todavía estás pensando si lanzarte.</p>
-              <a class="text-link text-link-light" href="empieza/">Leer guía base</a>
+              <p>Guía clara para empezar a emprender en Vitoria-Gasteiz y Álava sin perderte entre trámites, impuestos, estructura y errores evitables. Lo que conviene entender antes de moverte.</p>
+              <a class="text-link" href="/empieza/como-empezar-a-emprender-en-vitoria-gasteiz/">Leer guía</a>
             </article>
-            <article class="guide reveal">
-              <span class="guide-tag">Fiscalidad</span>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Autónomos</p>
+              <h3>Cómo hacerse autónomo en Álava: pasos, teoría y errores básicos</h3>
+              <p>Guía clara para hacerse autónomo en Álava sin ir a ciegas: qué significa ser autónomo, qué administraciones intervienen, qué derechos y obligaciones aparecen, qué ayudas revisar y qué ordenar antes del alta.</p>
+              <a class="text-link" href="/empieza/como-hacerse-autonomo-en-alava/">Leer guía</a>
+            </article>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Impuestos</p>
               <h3>Qué impuestos paga un autónomo cuando empieza</h3>
-              <p>IVA, IRPF, cuota de autónomos y TicketBAI, explicado desde cero.</p>
-              <a class="text-link text-link-light" href="impuestos/">Ir al hub fiscal</a>
+              <p>Guía clara para entender qué paga de verdad un autónomo cuando empieza en Álava: IVA, IRPF, IAE, cuota de autónomos y otras cargas que afectan a tu caja desde el inicio.</p>
+              <a class="text-link" href="/impuestos/que-impuestos-paga-un-autonomo-cuando-empieza/">Leer guía</a>
             </article>
-            <article class="guide reveal">
-              <span class="guide-tag">Ayudas</span>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Decisiones</p>
+              <h3>Autónomo o SL: qué te conviene de verdad al empezar</h3>
+              <p>Guía clara para decidir si te conviene empezar como autónomo o montar una SL: qué cambia en estructura, fiscalidad, gestión, riesgo y carga real al arrancar.</p>
+              <a class="text-link" href="/empieza/autonomo-o-sl-que-te-conviene-de-verdad/">Leer guía</a>
+            </article>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Ayudas</p>
               <h3>Ayudas para emprender en Vitoria-Gasteiz y Álava</h3>
-              <p>Las principales ayudas disponibles y cómo prepararte para no llegar tarde.</p>
-              <a class="text-link text-link-light" href="ayudas/">Ir al hub de ayudas</a>
+              <p>Guía clara para entender qué ayudas pueden existir para emprender en Vitoria-Gasteiz y Álava, qué fase cubre cada una, qué suelen pedir y cómo llegar preparado para no solicitarlas mal.</p>
+              <a class="text-link" href="/ayudas/ayudas-para-emprender-en-vitoria-gasteiz-y-alava/">Leer guía</a>
             </article>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Errores</p>
+              <h3>Errores frecuentes al empezar un negocio que luego salen caros</h3>
+              <p>Guía clara para entender qué errores comete mucha gente al empezar un negocio, por qué salen caros y cómo evitarlos antes de que te roben tiempo, dinero y foco.</p>
+              <a class="text-link" href="/errores/errores-frecuentes-al-empezar-un-negocio/">Leer guía</a>
+            </article>
+            
+            <article class="info-card reveal">
+              <p class="card-label">TicketBAI</p>
+              <h3>TicketBAI en Álava: lo que debes entender desde el principio</h3>
+              <p>Guía clara para entender qué es TicketBAI en Álava, a quién afecta, qué obtiene la Administración con él, qué carga añade al negocio y cómo no descubrirlo tarde cuando ya estás facturando.</p>
+              <a class="text-link" href="/impuestos/ticketbai-en-alava-lo-que-debes-entender-desde-el-principio/">Leer guía</a>
+            </article>
+            
+            <article class="info-card reveal">
+              <p class="card-label">Recurso</p>
+              <h3>Certificado digital: por qué te conviene resolverlo cuanto antes</h3>
+              <p>Guía clara para entender qué es el certificado digital, para qué sirve al emprender y por qué conviene resolverlo pronto si vas a operar con Hacienda Foral, Seguridad Social, TicketBAI y trámites online.</p>
+              <a class="text-link" href="/recursos/certificado-digital-por-que-te-conviene-resolverlo-cuanto-antes/">Leer guía</a>
+            </article>
+            </div>
+          <div class="section-actions reveal">
+            <a class="button button-light" href="/recursos/">Ver todas las guías</a>
           </div>
         </div>
       </section>
 
-      <section class="section">
-        <div class="section-inner split-intro">
-          <div class="reveal">
-            <p class="eyebrow eyebrow-ink">Acompañamiento</p>
-            <h2>Y cuando dejar de hacerlo solo tenga sentido, podemos acompañarte.</h2>
+      <section class="section-band">
+        <div class="section-inner split-band">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Acompañamiento profesional</p>
+            <h2>Y cuando dejar de hacerlo solo tenga sentido, podemos acompañarte</h2>
           </div>
-          <div class="service-box reveal">
-            <p>
-              Si ya has decidido empezar, te ayudamos con la parte fiscal, contable, laboral, administrativa y de seguimiento para que no avances a base de dudas sueltas, retrasos y decisiones improvisadas.
-            </p>
-            <ul class="service-list">
+          <div class="section-copy reveal">
+            <p>Hay partes que quizá podrías intentar llevar por tu cuenta. La pregunta importante no es solo si puedes. La pregunta importante es si te compensa hacerlo bien, sostenerlo en el tiempo y no restarle foco al negocio que quieres construir.</p>
+            <p>Si ya has decidido empezar, te ayudamos con la parte fiscal, contable, laboral, administrativa y de seguimiento para que no avances a base de dudas sueltas, retrasos y decisiones improvisadas.</p>
+            <p>Si eres autónomo, freelance o estás montando un pequeño negocio, también podemos ayudarte a ordenar esa base para que el proyecto no dependa solo de improvisar sobre la marcha.</p>
+            <ul class="inline-list">
               <li>alta y puesta en marcha</li>
               <li>fiscalidad y contabilidad</li>
               <li>gestión laboral</li>
@@ -166,58 +234,84 @@
               <li>orientación sobre ayudas y subvenciones</li>
               <li>consultas jurídicas con nuestro equipo</li>
             </ul>
-            <a class="text-link" href="asesoria/">Ver la página de asesoría</a>
+            <p class="emphasis">La pregunta no es solo si podrías llevar ciertas cosas por tu cuenta. La pregunta importante es si te compensa hacerlo bien, a tiempo y sin que te robe foco del negocio.</p>
+            <a class="text-link" href="/asesoria/asesoria-para-emprender-en-vitoria-gasteiz-y-alava/">Ver cómo os encargáis del acompañamiento</a>
           </div>
         </div>
       </section>
 
-      <section class="section section-soft">
-        <div class="section-inner quote-band reveal">
-          <p class="eyebrow eyebrow-ink">Beca de arranque</p>
-          <blockquote class="pull-quote">
-            El primer año de cuota mensual estará becado al 100%, según las condiciones comerciales definidas por la marca.
-          </blockquote>
-          <p class="section-copy">
-            La lógica comercial aquí no es empujarte a contratar antes de tiempo. Primero claridad, luego confianza, después contratación.
-          </p>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-inner closing-box reveal">
-          <p class="eyebrow eyebrow-ink">Cierre</p>
-          <h2>Empieza con criterio, no a ciegas.</h2>
-          <p>
-            Si todavía estás intentando entender por dónde empezar, aquí tienes una base clara. Y si ya sabes que no quieres avanzar solo, también podemos ayudarte a llevarlo bien desde el principio.
-          </p>
-          <div class="actions">
-            <a class="button" href="contacto/">Quiero contaros mi caso</a>
-            <a class="button button-secondary" href="recursos/">Ver recursos útiles</a>
+      <section class="section-band section-soft">
+        <div class="section-inner split-band">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Becas</p>
+            <h2>Empezar ya exige bastante. Nuestra idea no es ponértelo más difícil.</h2>
+          </div>
+          <div class="section-copy reveal">
+            <p>Si empiezas con nosotros desde el día cero, puedes acceder a una <strong>beca del 100% de la cuota mensual de asesoría durante el primer año</strong>, según las condiciones definidas por la marca.</p>
+            <p>Y si tu negocio tiene menos de 3 años, no estás contento con tu asesor actual y decides cambiar con nosotros, existe una <strong>beca de 6 meses</strong> para ayudarte a ordenar mejor la base del proyecto.</p>
+            <p>Aquí lo importante no es lanzar una promesa vacía. Es explicarte con claridad qué incluye, qué no incluye y en qué condiciones aplica cada beca.</p>
+            <a class="text-link" href="/asesoria/becas-para-emprender-con-nosotros/">Ver condiciones de las becas</a>
           </div>
         </div>
       </section>
+
+      <section class="section-band">
+        <div class="section-inner editorial-band">
+          <div class="section-heading reveal">
+            <p class="eyebrow eyebrow-dark">Cierre de marca</p>
+            <h2>Te llamamos HÉROE EMPRENDEDOR porque hoy emprender exige más valor del que casi nadie reconoce.</h2>
+          </div>
+          <div class="editorial-copy reveal">
+            <p>No porque emprender suene épico en una frase.</p>
+            <p>Sino porque hoy abrir un negocio implica arriesgar tiempo, dinero, energía y estabilidad en un entorno que muchas veces te exige más de lo que te aclara.</p>
+            <p>Nuestra obligación no es recitarte papeles. Nuestra obligación es darte claridad, contexto y una base bien hecha desde el principio.</p>
+          </div>
+        </div>
+      </section>
+
+      
+    <section class="cta-band reveal">
+      <div class="cta-band-inner">
+        <p class="eyebrow eyebrow-dark">Siguiente paso</p>
+        <h2>Empieza con criterio, no a ciegas</h2>
+        <p>Si todavía estás intentando entender por dónde empezar, aquí tienes una base clara. Y si ya sabes que no quieres avanzar solo, también podemos ayudarte a llevarlo bien desde el principio.</p>
+        <div class="actions">
+          <a class="button" href="/empieza/como-empezar-a-emprender-en-vitoria-gasteiz/">Quiero ver por dónde empezar</a>
+          <a class="button button-secondary" href="/asesoria/asesoria-para-emprender-en-vitoria-gasteiz-y-alava/">Quiero que me acompañéis</a>
+        </div>
+      </div>
+    </section>
+
     </main>
+    
 
     <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-top">
           <div>
-            <div class="footer-closing">Claridad para empezar. Criterio para construir.</div>
-            <div class="footer-meta">Respaldado por Grupo Vadillo · Vitoria-Gasteiz · Álava · Euskadi</div>
+            <p class="footer-kicker">Claridad para empezar. Criterio para construir.</p>
+            <p class="footer-copy">Vitoria-Gasteiz · Álava · Euskadi</p>
           </div>
-          <a class="text-link" href="https://www.grupovadillo.com/" target="_blank" rel="noreferrer">Ver Grupo Vadillo</a>
+          <a class="footer-vadillo" href="https://www.grupovadillo.com/" target="_blank" rel="noreferrer">
+            Ver Grupo Vadillo
+          </a>
         </div>
         <ul class="footer-links">
-          <li><a href="empieza/">Empieza</a></li>
-          <li><a href="impuestos/">Impuestos</a></li>
-          <li><a href="ayudas/">Ayudas</a></li>
-          <li><a href="recursos/">Recursos</a></li>
-          <li><a href="asesoria/">Asesoría</a></li>
-          <li><a href="contacto/">Contacto</a></li>
+          <li><a href="/empieza/">Empieza</a></li>
+<li><a href="/impuestos/">Impuestos</a></li>
+<li><a href="/ayudas/">Ayudas</a></li>
+<li><a href="/recursos/">Recursos</a></li>
+<li><a href="/asesoria/">Asesoría</a></li>
+<li><a href="/asesoria/cambio-de-asesoria-para-negocios-de-menos-de-3-anos/">Cambio de asesoría</a></li>
+<li><a href="/asesoria/becas-para-emprender-con-nosotros/">Becas</a></li>
+<li><a href="/quienes-somos/">Quiénes somos</a></li>
+<li><a href="/aviso-legal/">Aviso legal</a></li>
+<li><a href="/politica-de-privacidad/">Privacidad</a></li>
+<li><a href="/cookies/">Cookies</a></li>
         </ul>
       </div>
     </footer>
 
-    <script src="main.js"></script>
+    <script src="/main.js"></script>
   </body>
 </html>
