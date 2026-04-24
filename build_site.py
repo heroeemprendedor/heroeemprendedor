@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 OUTPUT = Path(os.environ.get("BUILD_OUTPUT", ROOT / "_site"))
 
-SITE_URL = "https://heroeemprendedor.github.io/"
+SITE_URL = "https://heroeemprendedor.github.io/heroeemprendedor/"
 
 EXCLUDE_NAMES = {
     ".git",
