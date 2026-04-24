@@ -1,9 +1,9 @@
 const menuToggle = document.querySelector("[data-menu-toggle]");
-const nav = document.querySelector("[data-site-nav]");
+const siteNav = document.querySelector("[data-site-nav]");
 
-if (menuToggle && nav) {
+if (menuToggle && siteNav) {
   menuToggle.addEventListener("click", () => {
-    const isOpen = nav.classList.toggle("is-open");
+    const isOpen = siteNav.classList.toggle("is-open");
     menuToggle.setAttribute("aria-expanded", String(isOpen));
   });
 }
@@ -11,19 +11,45 @@ if (menuToggle && nav) {
 const reveals = document.querySelectorAll(".reveal");
 
 if ("IntersectionObserver" in window) {
-  const observer = new IntersectionObserver(
+  const revealObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("is-visible");
-          observer.unobserve(entry.target);
+        if (!entry.isIntersecting) {
+          return;
         }
+
+        entry.target.classList.add("is-visible");
+        revealObserver.unobserve(entry.target);
       });
     },
-    { threshold: 0.12 }
+    {
+      threshold: 0.12,
+    }
   );
 
-  reveals.forEach((element) => observer.observe(element));
+  reveals.forEach((element) => revealObserver.observe(element));
 } else {
   reveals.forEach((element) => element.classList.add("is-visible"));
 }
+
+const mailForms = document.querySelectorAll("[data-mail-form]");
+
+mailForms.forEach((form) => {
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+    const bodyLines = [
+      `Nombre: ${formData.get("nombre") || ""}`,
+      `Contacto: ${formData.get("contacto") || ""}`,
+      `Fase: ${formData.get("fase") || ""}`,
+      "",
+      "Mensaje:",
+      `${formData.get("mensaje") || ""}`,
+    ];
+
+    const subject = encodeURIComponent("Consulta desde HÉROE EMPRENDEDOR");
+    const body = encodeURIComponent(bodyLines.join("\n"));
+    window.location.href = `mailto:info@grupovadillo.com?subject=${subject}&body=${body}`;
+  });
+});
